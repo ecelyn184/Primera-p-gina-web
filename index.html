@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device.width, initial-scale=1">
+    <title>Hogwarts</title>
+    <!-- Favicon -->
+    <link rel="icon" typo="image/x-icon" href="imagenes/favicon-icono.png">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css ">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo-de-hogwarts-2.png" width="50" alt="Logo de la pagina web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"href="#">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Presentación de la Escuela -->
+
+      <section class="Presentacion seccion-oscura">
+        <div class="contenedor">
+             <h2 class="seccion-titulo">Conoce a la Famosa Escuela de Magia "Hogwarts"</h2>
+            <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores omnis, iste maxime esse excepturi perferendis obcaecati veniam! Quasi eveniet eligendi incidunt ex nulla. Nobis accusamus praesentium, vero sit ullam ut.</p>
+        </div>
+           
+      </section>
+
+       <!-- Carrusel -->
+       <section class="testimonios seccion-clara">
+            <h2  class="seccion-titulo">Carrusel</h2>
+            <h3 class="seccion-descripcion">Estos son algunas fotos de la Escuela Hogwarts</h3>
+            
+            <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imagenes/hogwarts-principal.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./imagenes/sombrero.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/El-famoso-juego-quidditch.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+          <!-- Contactos -->
+
+          <section class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Estas listo/a!
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Empieza esta increible experiencia en nuestra Escuela de Magia, espera a recibir la famosa carta de aceptación.
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailton:evelyngutierez184@gmail.com">
+                                <button type="button">
+                                    Contactanos
+                                    <i class="bi bi-envelope-plus-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         
+
+
+
+
+
+        <!-- Pie de pagina (footer) -->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <img class="footer-logo" src="imagenes/hogwarts.jpg" alt="Logo de portafolio">
+            <p class="footer-texto text-center">Aprendo y creo todos los días.<br></p>
+              <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                   <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+                       <i class="bi bi-twitter"></i>
+                   </a>
+                   <a href="https://github.com/ecelyn184" target="_blank" rel="noopener noreferrer">
+                       <i class="bi bi-github"></i>
+                   </a>
+                   <a href="https://www.linkedin.com/in/evelyn-guti%C3%A9rrez-607b78244/" target="_blank" rel="noopener noreferrer">
+                       <i class="bi bi-linkedin"></i>
+                   </a>
+                   <a href="https://www.instagram.com/ad3lyn_184/" target="_blank" rel="noopener noreferrer">
+                       <i class="bi bi-instagram"></i>
+                   </a>
+                   <a href="mailto:evelyngutierez184@micorreo.com" target="_blank" rel="noopener noreferrer">
+                       <i class="bi bi-envelope"></i>
+                   </a>
+             </div>
+             <div class="derechos-de-autor">Creado por Evelyn Gutierrez (2023) &#169;</div>
+        </footer>
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
